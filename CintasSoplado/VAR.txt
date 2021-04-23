@@ -1,0 +1,28 @@
+PROGRAM Cintas
+VAR
+	bS_FC_Empujador_1 AT %IX0.0: BOOL; (*I1*)
+	bS_IC_Empujador_1 AT %IX0.1: BOOL; (*I2*)
+	bS_FC_Empujador_2 AT %IX0.2: BOOL; (*I3*)
+	bS_IC_Empujador_2 AT %IX0.3: BOOL; (*I4*)
+	bS_FT_Empujador_1 AT %IX0.4: BOOL; (*I5*)
+	bS_FT_Fresadora   AT %IX0.5: BOOL; (*I6*)
+	bS_FT_Carga       AT %IX0.6: BOOL; (*I7*)
+	bS_FT_Taladro     AT %IX0.7: BOOL; (*I8*)
+	bS_FT_Salida      AT %IX1.0: BOOL; (*I9*)
+	
+	bBotonInicioHMI   AT %IX1.9: BOOL; (*Boton Inicio HMI*)
+	bBotonInicioHMIW  AT %IX1.10: BOOL;(*Boton Inicio HMIW*)
+	
+	bA_ M_Empujador_1_Adelante AT %QX0.4: BOOL; (*Q1*)
+	bA_ M_Empujador_1_Atras    AT %QX0.5: BOOL; (*Q2*)
+	bA_ M_Empujador_2_Adelante AT %QX0.6: BOOL; (*Q3*)
+	bA_ M_Empujador_2_Atras    AT %QX0.7: BOOL; (*Q4*)
+	bA_ M_Cinta_Alimentacion   AT %QX1.0: BOOL; (*Q5*)
+	bA_ M_Cinta_Fresadora      AT %QX1.1: BOOL; (*Q6*)
+	bA_ M_Fresadora            AT %QX1.2: BOOL; (*Q7*)
+	bA_ M_Cinta_Taladro        AT %QX1.3: BOOL; (*Q8*)
+	bA_ M_Taladro              AT %QX1.4: BOOL; (*Q9*)
+	bA_ M_Cinta_Salida         AT %QX1.5: BOOL; (*Q10*)
+	bA_Habilitar_Sistema       AT %QX1.6: BOOL; (*Q11*)
+	
+END_VAR
