@@ -1,0 +1,16 @@
+params
+sisotool(G)
+pole(G)
+ans =
+  -0.4375 + 5.2746i
+  -0.4375 - 5.2746i
+
+[Kc, Ti, Td]=pid2isa(C)
+
+Kc = 4.4834
+
+Ti = 3.2363
+
+Td = 0.6714
+
+diary off
