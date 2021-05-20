@@ -2,15 +2,13 @@ params
 sisotool(G)
 pole(G)
 ans =
-  -0.4375 + 5.2746i
-  -0.4375 - 5.2746i
+  -0.4073 + 3.3935i
+  -0.4073 - 3.3935i
 
 [Kc, Ti, Td]=pid2isa(C)
 
-Kc = 4.4834
+PARALLEL
+CP = pid(Kc,Ti,Td)
+STANDARD
+CP = pidstd(Kc,Ti,Td)
 
-Ti = 3.2363
-
-Td = 0.6714
-
-diary off
