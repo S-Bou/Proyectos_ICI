@@ -5,7 +5,7 @@ I=m1*r1^2+m2*r2^2+m3*r3^2;
 a2=-0.000055; a0=0.001505;
 g=9.81;
 %Punto de funcionamiento
-vo=3.855;
+vo=3.855095346;
 alfa_o=0; %rad
 %Función de transferencia
 s= tf('s');
