@@ -1,0 +1,27 @@
+PROGRAM Gestion_HMI
+VAR
+	bRes_T_Fresado              AT %MX1.0: BOOL;
+	bSum_T_Fresado              AT %MX2.1: BOOL;
+	bRes_T_Taladrado            AT %MX2.2: BOOL;
+	bSum_T_Taladrado            AT %MX2.3: BOOL;
+	bRes_T_Soplado              AT %MX2.4: BOOL;
+	bSum_T_Soplado              AT %MX2.5: BOOL;		
+	bRes_AnguloInicio           AT %MX3.6: BOOL;		
+	bSum_AnguloInicio           AT %MX2.7: BOOL;
+	bRes_AnguloSoplado          AT %MX3.0: BOOL;
+	bSum_AnguloSoplado          AT %MX3.1: BOOL;	
+
+	bSe_FT_Carga                AT %MX3.2: BOOL; 
+	bSe_FT_Empujador_1          AT %MX3.3: BOOL; 
+	bSe_FC_Empujador_1          AT %MX3.4: BOOL;
+	bSe_FT_Fresadora            AT %MX3.5: BOOL; 	
+	bSe_FT_Taladro              AT %MX3.6: BOOL;
+	bSe_FC_Empujador_2          AT %MX3.7: BOOL;  
+	bSe_FT_Salida               AT %MX4.0: BOOL; 
+	
+	bAe_M_Empujador_1_Adelante  AT %MX3.01: BOOL;
+	bAe_M_Fresadora             AT %MX3.02: BOOL;
+	bAe_M_Taladro               AT %MX3.03: BOOL;
+	bAe_M_Empujador_2_Adelante  At %MX3.04: BOOL;	
+
+END_VAR

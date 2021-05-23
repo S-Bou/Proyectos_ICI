@@ -1,6 +1,6 @@
 params
-sisotool(G)
-pole(G)
+sisotool(Gs)
+pole(Gs)
 ans =
   -0.4073 + 3.3935i
   -0.4073 - 3.3935i

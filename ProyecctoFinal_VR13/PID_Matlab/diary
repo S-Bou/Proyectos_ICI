@@ -1,0 +1,14 @@
+params
+sisotool(G)
+pole(G)
+ans =
+  -0.4073 + 3.3935i
+  -0.4073 - 3.3935i
+
+[Kc, Ti, Td]=pid2isa(C)
+
+PARALLEL
+CP = pid(Kc,Ti,Td)
+STANDARD
+CP = pidstd(Kc,Ti,Td)
+
